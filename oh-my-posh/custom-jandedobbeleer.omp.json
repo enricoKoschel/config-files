@@ -5,6 +5,14 @@
       "alignment": "left",
       "segments": [
         {
+          "type": "rust",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#193549",
+          "background": "#99908a",
+          "template": " \uE7a8 {{ .Full }} "
+        },
+        {
           "background": "#c386f1",
           "foreground": "#ffffff",
           "leading_diamond": "\ue0b6",
